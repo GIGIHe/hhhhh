@@ -54,7 +54,7 @@ $(function(){
             $(".frame").eq(inx).slideDown()
              $(".mask").fadeIn(200)
              $("html,body").css(
-               {overflow: "hidden"}
+               {"overflow-y": "hidden"}
              )
         })
          })
