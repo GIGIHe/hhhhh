@@ -43,8 +43,7 @@ $(function(){
             $(".frame").hide()
               $(".mask").hide()
                $("html,body").css(
-               {"overflow-y": "scroll",
-               " -webkit-overflow-scrolling": "touch"}
+               {"overflow-y": "auto"}
              )
         })
         // 点击听课
